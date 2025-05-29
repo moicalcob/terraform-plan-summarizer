@@ -27,7 +27,7 @@ $ yarn run start:dev
 4. Test the API sending the output of `terraform plan` to the `/summarize` endpoint.
 
  - Single file
-◊
+
     ```bash
     $ curl -X POST http://localhost:3000/summarize -F "files=@terraform.tfplan"
     ```
